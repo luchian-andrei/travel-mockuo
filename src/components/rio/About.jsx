@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import AnimatedHeader from "../AnimatedHeader";
 
 const About = () => {
@@ -20,12 +21,11 @@ const About = () => {
             and entertainment, or check out the many famous landmarks around the
             city.
           </span>
-          <a
-            href="#map"
-            className="text-[#6aa3a2] hover:text-black transition-colors duration-300"
-          >
-            View Map
-          </a>
+          <Link to="/contact">
+            <p className="text-[#6aa3a2] hover:text-black transition-colors duration-300">
+              View Map
+            </p>
+          </Link>
         </p>
       </div>
       <div className="lg:flex grid grid-row w-full justify-around h-1/3 my-20">

@@ -116,7 +116,7 @@ const Contact = () => {
         </div>
       </div>
       <p className="text-[#868686] text-start w-3/4">
-        © This is a perfect copy made by me after a free template from
+        © This is a perfect copy made by me after a free template from{" "}
         <a href="https://www.wix.com/?utm_campaign=vir_created_with">
           <span className="underline">Wix</span>
         </a>

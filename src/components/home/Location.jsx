@@ -22,7 +22,7 @@ const Location = () => {
           fresh-squeezed juices from one of the colourful stalls along the
           beach, and don’t miss live bossy-nova show in one of the local bars.
         </p>
-        <Link>
+        <Link to="/contact">
           <p className="text-[#6aa3a2] hover:text-black transition-colors duration-300">
             VIEW MAP
           </p>

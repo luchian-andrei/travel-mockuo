@@ -14,7 +14,7 @@ const MapComponent = () => {
   const [markerRef, marker] = useAdvancedMarkerRef();
 
   return (
-    <APIProvider apiKey={import.meta.env.VITE_MAP_API}>
+    <APIProvider apiKey={import.meta.env.VITE_MAP_API} id="#map">
       <Map
         mapId={import.meta.env.VITE_MAP_ID}
         defaultCenter={{ lat: 37.775604, lng: -122.419806 }}
