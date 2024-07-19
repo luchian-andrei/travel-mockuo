@@ -25,7 +25,7 @@ jobs:
       - name: Build project
         run: npm run build
         env:
-          VITE_MAP_API: ${{ secrets.VITE_MAP_API }},
+          VITE_MAP_API: ${{ secrets.VITE_MAP_API }}
           VITE_MAP_ID: ${{ secrets.VITE_MAP_ID }}
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
