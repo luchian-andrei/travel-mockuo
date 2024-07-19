@@ -1,8 +1,6 @@
-# React + Vite
+# About
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I made this mockup trying to replicate the original page as good as possible.
+Was styled using Tailwind CSS.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The link to the original page is https://www.wix.com/website-template/view/html/1703?utm_source=freewebsitetemplates&utm_medium=template_banner&utm_term=blank&utm_content=ma_html_fwt_temp_1_4_rio&utm_campaign=ma_fwt&experiment_id=cpa_fwt_temp_1_4_rio1703.
