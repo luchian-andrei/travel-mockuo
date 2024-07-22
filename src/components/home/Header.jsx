@@ -2,7 +2,7 @@ import AnimatedHeader from "../AnimatedHeader";
 
 const Header = () => {
   return (
-    <section className="md:bg-[url('./images/rio-landscape.png')] bg-[url('./images/rio-landscape-mobile.png')] w-full h-96 lg:h-screen  bg-no-repeat bg-center bg-cover flex flex-col justify-center items-center text-center overflow-x-hidden mb-0">
+    <section className="md:bg-rio-landscape bg-rio-landscape-mobile w-full h-96 lg:h-screen  bg-no-repeat bg-center bg-cover flex flex-col justify-center items-center text-center overflow-x-hidden mb-0">
       <AnimatedHeader>
         <div className=" flex flex-col lg:flex-row justify-center items-center gap-4">
           <img src="./images/wavy-element.png" alt="wavy-element" />
